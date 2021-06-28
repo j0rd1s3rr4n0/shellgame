@@ -1,0 +1,176 @@
+
+        d88888b .d8888.  .d88b.   .o88b. d888888b d88888b d888888b db    db
+        88'     88'  YP .8P  Y8. d8P  Y8   `88'   88         88    `8b  d8'
+        88ooo   `8bo.   88    88 8P         88    88ooooo    88     `8bd8'
+        88        `Y8b. 88    88 8b         88    88         88       88
+        88      db   8D `8b  d8' Y8b  d8   .88.   88.        88       88
+        YP      `8888Y'  `Y88P'   `Y88P' Y888888P Y88888P    YP       YP
+        
+       }--------------{+} Coded By Manisso {+}--------------{
+       }--------{+}  GitHub.com/Manisso/fsociety {+}--------{
+    
+       {1}--Information Gathering
+       {2}--Password Attacks
+       {3}--Wireless Testing
+       {4}--Exploitation Tools
+       {5}--Sniffing & Spoofing
+       {6}--Web Hacking
+       {7}--Private Web Hacking
+       {8}--Post Exploitation
+       {0}--INSTALL & UPDATE
+       {11}-CONTRIBUTORS
+       {99}-EXIT
+
+     
+fsociety ~# 
+
+    88 88b 88 888888  dP"Yb
+    88 88Yb88 88__   dP   Yb
+    88 88 Y88 88""   Yb   dP
+    88 88  Y8 88      YbodP
+    
+  {1}--Nmap - Network Mapper
+  {2}--Setoolkit
+  {3}--Host To IP
+  {4}--WPScan
+  {5}--CMSmap
+  {6}--XSStrike
+  {7}--Doork
+  {8}--Crips
+  
+  {99}-Back To Main Menu 
+
+fsociety ~# 
+
+    88""Yb    db    .dP"Y8 .dP"Y8 Yb        dP 8888b.
+    88__dP   dPYb   `Ybo." `Ybo."  Yb  db  dP   8I  Yb
+    88"""   dP__Yb  o.`Y8b o.`Y8b   YbdPYbdP    8I  dY
+    88     dP""""Yb 8bodP' 8bodP'    YP  YP    8888Y"
+    
+   {1}--Cupp - Common User Passwords Profiler
+   {2}--BruteX - Automatically bruteforces all services running on a target
+
+   {99}-Back To Main Menu 
+
+passwd ~# 
+
+
+    Yb        dP 88 88""Yb 888888 88     888888 .dP"Y8 .dP"Y8
+     Yb  db  dP  88 88__dP 88__   88     88__   `Ybo." `Ybo."
+      YbdPYbdP   88 88"Yb  88""   88  .o 88""   o.`Y8b o.`Y8b
+       YP  YP    88 88  Yb 888888 88ood8 888888 8bodP' 8bodP'
+    
+   {1}--reaver 
+   {2}--pixiewps
+   {3}--Bluetooth Honeypot GUI Framework 
+
+   {99}-Back To The Main Menu 
+
+fsociety ~# 
+
+
+    888888 Yb  dP 88""Yb 88
+    88__    YbdP  88__dP 88
+    88""    dPYb  88"""  88  .o
+    888888 dP  Yb 88     88ood8
+    
+   {1}--ATSCAN
+   {2}--sqlmap
+   {3}--Shellnoob
+   {4}--commix
+   {5}--FTP Auto Bypass
+   {6}--JBoss-Autopwn
+   {7}--Blind SQL Automatic Injection And Exploit
+   {8}--Bruteforce the Android Passcode given the hash and salt
+   {9}--Joomla SQL injection Scanner 
+ 
+   {99}-Go Back To Main Menu 
+
+fsociety ~# 
+
+    .dP"Y8 88b 88 88 888888 888888 88 88b 88  dP""b8
+    `Ybo." 88Yb88 88 88__   88__   88 88Yb88 dP   `"
+    o.`Y8b 88 Y88 88 88""   88""   88 88 Y88 Yb  "88
+    8bodP' 88  Y8 88 88     88     88 88  Y8  YboodP
+    
+   {1}--SEToolkit - Tool aimed at penetration testing around Social-Engineering
+   {2}--SSLtrip - MITM tool that implements SSL stripping  attacks
+   {3}--pyPISHER - Tool to create a mallicious website for password pishing
+   {4}--SMTP Mailer - Tool to send SMTP mail
+ 
+   {99}-Back To Main Menu 
+
+fsociety ~# 
+
+
+    Yb        dP 888888 88""Yb
+     Yb  db  dP  88__   88__dP
+      YbdPYbdP   88""   88""Yb
+       YP  YP    888888 88oodP
+    
+   {1}--Drupal Hacking 
+   {2}--Inurlbr
+   {3}--Wordpress & Joomla Scanner
+   {4}--Gravity Form Scanner
+   {5}--File Upload Checker
+   {6}--Wordpress Exploit Scanner
+   {7}--Wordpress Plugins Scanner
+   {8}--Shell and Directory Finder
+   {9}--Joomla! 1.5 - 3.4.5 remote code execution
+   {10}-Vbulletin 5.X remote code execution
+   {11}-BruteX - Automatically brute force all services running on a target
+   {12}-Arachni - Web Application Security Scanner Framework 
+ 
+   {99}-Back To Main Menu 
+
+fsociety ~# 
+
+
+    88""Yb 88""Yb 88 Yb    dP    db    888888 888888
+    88__dP 88__dP 88  Yb  dP    dPYb     88   88__
+    88"""  88"Yb  88   YbdP    dP__Yb    88   88""
+    88     88  Yb 88    YP    dP""""Yb   88   888888
+    
+Enter Target IP: 8.8.8.8
+
+        d88888b .d8888.  .d88b.   .o88b. d888888b d88888b d888888b db    db
+        88'     88'  YP .8P  Y8. d8P  Y8   `88'   88         88    `8b  d8'
+        88ooo   `8bo.   88    88 8P         88    88ooooo    88     `8bd8'
+        88        `Y8b. 88    88 8b         88    88         88       88
+        88      db   8D `8b  d8' Y8b  d8   .88.   88.        88       88
+        YP      `8888Y'  `Y88P'   `Y88P' Y888888P Y88888P    YP       YP
+        
+
+   {1}--Get all websites
+   {2}--Get joomla websites
+   {3}--Get wordpress websites
+   {4}--Control Panel Finder
+   {5}--Zip Files Finder
+   {6}--Upload File Finder
+   {7}--Get server users
+   {8}--SQli Scanner
+   {9}--Ports Scan (range of ports)
+   {10}-ports Scan (common ports)
+   {11}-Get server Info
+   {12}-Bypass Cloudflare
+
+   {99}-Back To Main Menu
+
+fsociety ~# 
+
+
+    88""Yb  dP"Yb  .dP"Y8 888888
+    88__dP dP   Yb `Ybo."   88
+    88"""  Yb   dP o.`Y8b   88
+    88      YbodP  8bodP'   88
+    
+   {1}--Shell Checker
+   {2}--POET
+   {3}--Phishing Framework 
+
+   {99}-Return to main menu 
+ 
+fsociety ~# 
+
+
+

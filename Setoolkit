@@ -1,0 +1,76 @@
+
+            :::===  :::===== :::====
+            :::     :::      :::====
+             =====  ======     ===
+                === ===        ===
+            ======  ========   ===
+
+
+[---]        The Social-Engineer Toolkit (SET)         [---]
+[---]        Created by: David Kennedy (ReL1K)         [---]
+                      Version: 8.0.1
+                  Codename: 'Maverick - BETA'
+[---]        Follow us on Twitter: @TrustedSec         [---]
+[---]        Follow me on Twitter: @HackingDave        [---]
+[---]       Homepage: https://www.trustedsec.com       [---]
+        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: https://www.trustedsec.com
+
+   It's easy to update using the PenTesters Framework! (PTF)
+Visit https://github.com/trustedsec/ptf to update all your tools!
+
+
+          There is a new version of SET available.
+                     Your version: 8.0.1
+                  Current version: 8.0.3
+
+Please update SET to the latest before submitting any git issues.
+
+
+ Select from the menu:
+
+   1) Social-Engineering Attacks
+   2) Penetration Testing (Fast-Track)
+   3) Third Party Modules
+   4) Update the Social-Engineer Toolkit
+   5) Update SET configuration
+   6) Help, Credits, and About
+
+  99) Exit the Social-Engineer Toolkit
+
+set> 
+
+Select from the menu:
+
+   1) Spear-Phishing Attack Vectors
+   2) Website Attack Vectors
+   3) Infectious Media Generator
+   4) Create a Payload and Listener
+   5) Mass Mailer Attack
+   6) Arduino-Based Attack Vector
+   7) Wireless Access Point Attack Vector
+   8) QRCode Generator Attack Vector
+   9) Powershell Attack Vectors
+  10) Third Party Modules
+
+  99) Return back to the main menu.
+
+set> 
+Welcome to the Social-Engineer Toolkit - Fast-Track Penetration Testing platform. These attack vectors
+have a series of exploits and automation aspects to assist in the art of penetration testing. SET
+now incorporates the attack vectors leveraged in Fast-Track. All of these attack vectors have been
+completely rewritten and customized from scratch as to improve functionality and capabilities.
+
+   1) Microsoft SQL Bruter
+   2) Custom Exploits
+   3) SCCM Attack Vector
+   4) Dell DRAC/Chassis Default Checker
+   5) RID_ENUM - User Enumeration Attack
+   6) PSEXEC Powershell Injection
+
+  99) Return to Main Menu
+

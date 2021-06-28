@@ -1,0 +1,207 @@
+root@kali:~/cupp# python3 cupp.py 
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+usage: cupp.py [-h] [-i | -w FILENAME | -l | -a | -v] [-q]
+
+Common User Passwords Profiler
+
+optional arguments:
+  -h, --help         show this help message and exit
+  -i, --interactive  Interactive questions for user password profiling
+  -w FILENAME        Use this option to improve existing dictionary, or WyD.pl
+                     output to make some pwnsauce
+  -l                 Download huge wordlists from repository
+  -a                 Parse default usernames and passwords directly from
+                     Alecto DB. Project Alecto uses purified databases of
+                     Phenoelit and CIRT which were merged and enhanced
+  -v, --version      Show the version of this program.
+  -q, --quiet        Quiet mode (don't print banner)
+
+
+root@kali:~/cupp# python3 cupp.py -i
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+
+[+] Insert the information about the victim to make a dictionary
+[+] If you don't know all the info, just hit enter when asked! ;)
+
+> First Name: 
+> Name: asd
+> Surname: asd
+> Nickname: asd
+> Birthdate (DDMMYYYY): 98980098
+
+
+> Partners) name: 2370001
+> Partners) nickname: a
+> Partners birthdate (DDMMYYYY): 12342000
+
+> Child's name: 
+> Child's nickname: as
+> Child's birthdate (DDMMYYYY): 43542000
+
+
+> Pet's name: asd
+> Company name: asd
+
+
+> Do you want to add some key words about the victim? Y/[N]: Y
+> Please enter the words, separated by comma. [i.e. hacker,juice,black], spaces will be removed: Y
+> Do you want to add special chars at the end of words? Y/[N]: Y
+> Do you want to add some random numbers at the end of words? Y/[N]:Y
+> Leet mode? (i.e. leet = 1337) Y/[N]: Y
+
+[+] Now making a dictionary...
+[+] Sorting list and removing duplicates...
+Y[+] Saving dictionary to asd.txt, counting 43846 words.
+[+] Now load your pistolero with asd.txt and shoot! Good luck!root@kali:~/cupp# python3 cupp.py -i
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+
+[+] Insert the information about the victim to make a dictionary
+[+] If you don't know all the info, just hit enter when asked! ;)
+
+> First Name: ^CTraceback (most recent call last):
+  File "cupp.py", line 1078, in <module>
+    main()
+  File "cupp.py", line 1022, in main
+    interactive()
+  File "cupp.py", line 298, in interactive
+    name = input("> First Name: ").lower()
+KeyboardInterrupt
+root@kali:~/cupp# python3 cupp.py
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+usage: cupp.py [-h] [-i | -w FILENAME | -l | -a | -v] [-q]
+
+Common User Passwords Profiler
+
+optional arguments:
+  -h, --help         show this help message and exit
+  -i, --interactive  Interactive questions for user password profiling
+  -w FILENAME        Use this option to improve existing dictionary, or WyD.pl
+                     output to make some pwnsauce
+  -l                 Download huge wordlists from repository
+  -a                 Parse default usernames and passwords directly from
+                     Alecto DB. Project Alecto uses purified databases of
+                     Phenoelit and CIRT which were merged and enhanced
+  -v, --version      Show the version of this program.
+  -q, --quiet        Quiet mode (don't print banner)
+root@kali:~/cupp# python3 cupp.py -a
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+
+[+] Checking if alectodb is not present...
+[+] Downloading alectodb.csv.gz from https://github.com/yangbh/Hammer/raw/b0446396e8d67a7d4e53d6666026e078262e5bab/lib/cupp/alectodb.csv.gz ... 
+
+[+] Exporting to alectodb-usernames.txt and alectodb-passwords.txt
+[+] Done.
+root@kali:~/cupp# python3 cupp.py -l
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+	
+	Choose the section you want to download:
+
+     1   Moby            14      french          27      places
+     2   afrikaans       15      german          28      polish
+     3   american        16      hindi           29      random
+     4   aussie          17      hungarian       30      religion
+     5   chinese         18      italian         31      russian
+     6   computer        19      japanese        32      science
+     7   croatian        20      latin           33      spanish
+     8   czech           21      literature      34      swahili
+     9   danish          22      movieTV         35      swedish
+    10   databases       23      music           36      turkish
+    11   dictionaries    24      names           37      yiddish
+    12   dutch           25      net             38      exit program
+    13   finnish         26      norwegian       
+
+	
+	Files will be downloaded from http://ftp.funet.fi/pub/unix/security/passwd/crack/dictionaries/ repository
+	
+	Tip: After downloading wordlist, you can improve it with -w option
+
+> Enter number: 38  
+[-] leaving.
+root@kali:~/cupp# python3 cupp.py -
+usage: cupp.py [-h] [-i | -w FILENAME | -l | -a | -v] [-q]
+cupp.py: error: unrecognized arguments: -
+root@kali:~/cupp# python3 cupp.py -v
+ ___________ 
+   cupp.py!                 # Common
+      \                     # User
+       \   ,__,             # Passwords
+        \  (oo)____         # Profiler
+           (__)    )\   
+              ||--|| *      [ Muris Kurgas | j0rgan@remote-exploit.org ]
+                            [ Mebus | https://github.com/Mebus/]
+
+
+	[ cupp.py ]  3.2.5-alpha
+
+	* Hacked up by j0rgan - j0rgan@remote-exploit.org
+	* http://www.remote-exploit.org
+
+	Take a look ./README.md file for more info about the program
+
+root@kali:~/cupp# python3 cupp.py -q
+usage: cupp.py [-h] [-i | -w FILENAME | -l | -a | -v] [-q]
+
+Common User Passwords Profiler
+
+optional arguments:
+  -h, --help         show this help message and exit
+  -i, --interactive  Interactive questions for user password profiling
+  -w FILENAME        Use this option to improve existing dictionary, or WyD.pl
+                     output to make some pwnsauce
+  -l                 Download huge wordlists from repository
+  -a                 Parse default usernames and passwords directly from
+                     Alecto DB. Project Alecto uses purified databases of
+                     Phenoelit and CIRT which were merged and enhanced
+  -v, --version      Show the version of this program.
+  -q, --quiet        Quiet mode (don't print banner)
+
+
+
